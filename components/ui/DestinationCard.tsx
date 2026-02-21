@@ -21,7 +21,7 @@ export const DestinationCard: React.FC<DestinationCardProps> = ({
         <Text style={styles.country}>{destination.country}</Text>
         <View style={styles.priceTag}>
           <Text style={styles.priceText}>From ${destination.price}</Text>
-        </View>ƒ
+        </View>
       </View>
     </TouchableOpacity>
   );
